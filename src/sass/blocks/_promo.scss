@@ -51,3 +51,34 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        padding-bottom: 70px;
+        &__wrapper {
+            margin-top: 65px;
+        }
+        &__header {
+            font-size: 38px;
+            line-height: 48px;
+        }
+        &__subheader {
+            margin-top: 7px;
+            font-size: 20px;
+        }
+        &__icons {
+            width: 100%;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+    }
+}
