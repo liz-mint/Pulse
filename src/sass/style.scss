@@ -15,4 +15,12 @@
 @import 'blocks/button';
 @import 'blocks/advantages';
 @import 'blocks/title';
-@import 'blocks/consult'
+@import 'blocks/consultation';
+@import 'blocks/forms';
+
+@media (max-width: 991px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
