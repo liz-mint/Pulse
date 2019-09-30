@@ -49,6 +49,9 @@
         img {
             height: 27px;
         }
+        &:hover {
+            box-shadow: 2px -2px 15px #ffffff;
+        }
     }
 }
 
