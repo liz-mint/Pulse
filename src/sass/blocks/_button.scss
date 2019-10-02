@@ -42,7 +42,10 @@
             height: 47px;
         }
         &:hover {
-            display: none;
+            background-color: $main-color;
+            border: none;
+            color: #ffffff;
+            font-weight: 500;
         }
     }
 }
